@@ -15,9 +15,11 @@ questpdf-previewer
 questpdf-previewer 12345
 🔁 To update the tool, please use:
 
-csharp
+```
 dotnet tool update questpdf.previewer --global
+```
 🗑️ And to remove:
 
-csharp
+```
 dotnet tool uninstall questpdf.previewer --global
+```
