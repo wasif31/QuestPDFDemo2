@@ -21,53 +21,49 @@ Document.Create(container =>
                 column.Item().ShowOnce().Element(ComposeFirstPageFooter);
                 column.Item().SkipOnce().Element(ComposeOtherPageFooter);
             });
-            
         });
     })
     .ShowInPreviewer();
+
 void ComposeHeader(IContainer container)
 {
-
     container.Row(row =>
     {
         row.ConstantItem(100).Image("Resources/image15.png");
         row.ConstantItem(290);
         row.ConstantItem(100).Height(50).Image("Resources/DigDrilProg.png");
-
     });
 }
+
 void ComposeFirstPageFooter(IContainer container)
 {
-
     container.Row(row =>
     {
-
         row.AutoItem().AlignRight().AlignMiddle().PaddingRight(140).Text("Partners").Style(TextStyle.Default.FontSize(10).FontColor(Colors.Black));
         row.AutoItem().AlignRight().AlignMiddle().PaddingHorizontal(10).Text("Var Energ").Style(TextStyle.Default.FontSize(12).FontColor(Colors.Black));
         row.AutoItem().AlignRight().AlignMiddle().PaddingHorizontal(10).Text("Var Energ").Style(TextStyle.Default.FontSize(12).FontColor(Colors.Black));
         row.AutoItem().AlignRight().AlignMiddle().PaddingHorizontal(10).Text("Var Energ").Style(TextStyle.Default.FontSize(12).FontColor(Colors.Black));
         row.AutoItem().AlignRight().AlignMiddle().PaddingHorizontal(10).Text("Var Energ").Style(TextStyle.Default.FontSize(12).FontColor(Colors.Black));
-
     });
-    }
+}
+
 void ComposeOtherPageFooter(IContainer container)
 {
     container.AlignMiddle().AlignCenter().Row(row =>
     {
-
         row.AutoItem().Text(x =>
         {
             x.CurrentPageNumber();
             x.Span(" / ");
             x.TotalPages();
         });
-
     });
 }
+
 void ComposeOtherHeader(IContainer container)
 {
-
-    container.Column(column =>{
+    container.Column(column =>
+    {
         column.Item().Height(40).Row(row =>
         {
             row.RelativeItem().AlignCenter().AlignMiddle().Image("Resources/image 12.png").FitHeight();
@@ -78,19 +74,15 @@ void ComposeOtherHeader(IContainer container)
             {
                 c.Item().AlignCenter().Text("Doc No").Style(TextStyle.Default.FontSize(10).Bold().FontColor(Colors.White));
                 c.Item().AlignCenter().Text("1").Style(TextStyle.Default.FontSize(8).Bold().FontColor(Colors.White));
-
             });
 
             row.RelativeItem().PaddingLeft(20).AlignMiddle().Column(cc =>
             {
                 cc.Item().AlignCenter().Text("Revision").Style(TextStyle.Default.FontSize(10).Bold().FontColor(Colors.White));
                 cc.Item().AlignCenter().Text("1").Style(TextStyle.Default.FontSize(8).Bold().FontColor(Colors.White));
-
             });
-
         });
     });
-
 }
 
 void ComposeContent(IContainer container)
@@ -100,6 +92,7 @@ void ComposeContent(IContainer container)
     {
         model.Items.Add(new Item { Name = $"Item{i}", Price = i * 10 });
     }
+
     var titleStyle = TextStyle.Default.FontSize(10).SemiBold().FontColor(Colors.Grey.Medium);
     var headerStyle = TextStyle.Default.FontSize(20).SemiBold().FontColor(Colors.Blue.Medium);
     var contentStyle = TextStyle.Default.FontSize(15).FontColor(Colors.Grey.Medium);
@@ -121,7 +114,6 @@ void ComposeContent(IContainer container)
             row.AutoItem().Text("");
             row.AutoItem().PaddingHorizontal(10).LineVertical(1).LineColor("#2374B6");
             row.AutoItem().MaxWidth(475).Text("Lorem ipsum dolor sit amet consectetur. Aliquam pretium ipsum cursus vulputate amet pharetra a. Non eget diam sagittis nisl egestas at ut fermentum. Et amet lorem aenean in nam venenatis. Vitae at nibh commodo sit nullam elit. Et amet lorem aenean in nam venenatis. Vitae at nibh commodo sit nullam elit.Et amet lorem aenean in nam Et amet lorem aenean in nam venenatis. Vitae at nibh commodo sit nullam elit.Et amet orem aenean in nam venenatis. Vitae at nibh commodo sit nullam elit. Et amet lorem aenean in nam ven").FontSize(8);
-
         });
 
         column.Item().PaddingVertical(10);
@@ -129,7 +121,6 @@ void ComposeContent(IContainer container)
         column.Item().Text("Basic data associated with the planned well is listed in the table below. The well has been planned in accordance with NORSOK D-010 rev. 5 and requirements as outlined in the Aker BP Well Construction Process (51-01 - Well Construction).").FontSize(10);
         column.Item().Row(row =>
         {
-           
             row.RelativeItem(8).Background("#F8F9FC").Table(table =>
             {
                 // step 1
@@ -200,7 +191,6 @@ void ComposeContent(IContainer container)
         });
         column.Item().Text("Table 1: Basic well data").FontSize(6).FontColor(Colors.Blue.Lighten1).Bold();
     });
-
 }
 
 public class Item
@@ -208,7 +198,8 @@ public class Item
     public string? Name { get; set; }
     public decimal Price { get; set; }
 }
+
 public class Model
 {
-    public List<Item>? Items  { get; set; }
+    public List<Item>? Items { get; set; }
 }
