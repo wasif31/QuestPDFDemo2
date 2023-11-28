@@ -1,0 +1,33 @@
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\QuestPDFDemo2.exe
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\QuestPDFDemo2.deps.json
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\QuestPDFDemo2.runtimeconfig.json
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\QuestPDFDemo2.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\QuestPDFDemo2.pdb
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\HarfBuzzSharp.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\QuestPDF.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\SkiaSharp.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\SkiaSharp.HarfBuzz.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\QuestPDFDemo2.csproj.AssemblyReference.cache
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\QuestPDFDemo2.GeneratedMSBuildEditorConfig.editorconfig
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\QuestPDFDemo2.AssemblyInfoInputs.cache
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\QuestPDFDemo2.AssemblyInfo.cs
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\QuestPDFDemo2.csproj.CoreCompileInputs.cache
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\QuestPDFDemo2.csproj.CopyComplete
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\QuestPDFDemo2.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\refint\QuestPDFDemo2.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\QuestPDFDemo2.pdb
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\QuestPDFDemo2.genruntimeconfig.cache
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\obj\Debug\net6.0\ref\QuestPDFDemo2.dll
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\Resources\image15.png
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\Resources\1.png
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\Resources\DigDrilProg.png
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\Resources\image 11.png
+D:\workstation\QuestPDFDemo2\QuestPDFDemo2\bin\Debug\net6.0\Resources\image 12.png
