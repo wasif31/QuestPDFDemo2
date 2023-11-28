@@ -3,8 +3,9 @@ The Previewer tool is available as a NuGet tool. Therefore, it is installed on y
 
 📁 To install the QuestPDF Previewer, please execute the following command on your PC:
 
-csharp
+```
 dotnet tool install QuestPDF.Previewer --global
+```
 🚀 Optional: you can start an independent previewer application:
 
 
